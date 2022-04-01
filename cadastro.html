@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cadastro.html">Cadastro de Livros</a></li>
+            <li><a href="detalhes.html">Detalhes</a></li>
+
+        </ul>
+    </nav>
+    <header>
+        <h1>Cadastre um livro</h1>
+    </header>
+    <form action="button">
+        <label>
+            Título:
+            <input type="text">
+        </label>
+        <div>
+        <label>
+            Autor:
+            <input type="text">
+        </label>
+        </div>
+        <div>
+        <label>
+            Gênero:
+            <input type="text">
+        </label>
+        </div>
+        <div>
+        <label>
+            Número de Páginas:
+            <input type="number" id="paginas">
+        </label>
+        </div>
+        <div>
+        <label>
+            Descrição do Livro:
+            <textarea id="descrição" name="descrição"
+            rows="10" cols="33">
+            </textarea>
+        </label>
+        </div>
+        <button>Enviar</button>
+    </form>
+
+    <table>
+        <tr>
+            <th>Titulo:</th>
+            <th>Autor</th>
+            <th>Gênero</th>
+            <th>Número de páginas:</th>
+
+        </tr>
+        <tr>
+            <td>A Revolução dos Bichos</td>
+            <td>George Orwell</td>
+            <td>Fábula</td>
+            <td>152</td>
+            <td>
+                <input id="edit" type="submit" nome="edit" value="Editar" />
+                <input id="apagar" type="submit" name="apagar" value="Apagar" />
+            </td>
+        </tr>
+        <tr>
+            <td>A Garota do Lago</td>
+            <td>Charlie Donlea</td>
+            <td>Suspense</td>
+            <td>296 </td>
+            <td>
+                <input id="edit" type="submit" nome="edit" value="Editar" />
+                <input id="apagar" type="submit" name="apagar" value="Apagar" />
+            </td>
+        </tr>
+    </table>
+    <footer>Desenvolvido por Nayane ;)</footer>
+</body>
+</html>
